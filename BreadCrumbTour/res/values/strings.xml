@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bread Crumb Tour</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- MAIN FRAGMENT -->
+    <string name="bFindTour">Find new tour</string>
+    <string name="bLogin">Login</string>
+    <string name = "bHelp">Help</string> 
+    
+    <!-- SEARCH FRAGMENT -->
+    <string name="lSearchActivity">Search for tours</string>
+    <string name="bSearchTour">Search tours</string>
+    <string name="tvLabelMinimumTime">Minimum time expected</string>
+    
+    <!-- RESULTS FRAGMENT -->
+    <string name="tvTrailName">Trail name</string>
+    <string name="tvTime">00:00</string>
+    <string name="iRating">0</string>
+    
+    <!-- CRUMB VIEW -->
+    <string name="tvHintText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus blandit massa id consectetur. Curabitur nulla orci, sodales ut justo sit amet, sodales viverra elit. Pellentesque facilisis ornare tempor. Fusce ornare tortor nec tempor fermentum.</string>
+	<string name="bPickCrumb">Pick crumb</string>
+    
+</resources>

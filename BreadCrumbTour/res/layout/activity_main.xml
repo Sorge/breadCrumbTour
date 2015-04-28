@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="info.sorgedev.breadcrumbtour.MainActivity" >
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <ImageView 
+            android:id="@+id/iBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/filler"
+            />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    	android:orientation="vertical"
+    	android:layout_gravity="center"
+    	android:gravity="center" >
+        
+	    <ImageView
+	        android:id="@+id/iMainImage"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="0dp"
+	        android:contentDescription="LOGO" />
+	
+	    <Button
+	        android:id="@+id/bFindTour"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/bFindTour" />
+	
+	    <Button
+	        android:id="@+id/bLogin"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/bLogin" />"
+	
+	    <Button
+	        android:id="@+id/bHelp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/bHelp" />
+    </LinearLayout>
+    
+</RelativeLayout>
+

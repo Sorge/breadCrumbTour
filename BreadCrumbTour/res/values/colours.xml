@@ -1,0 +1,7 @@
+<resources>
+    <color name="light">#F5F5F5</color>
+    <color name="yellow">#FFB600</color>
+    <color name="light_grey">#D6D6D6</color>
+    <color name="grey">#7F7F7F</color>
+    <color name="dark_grey">#353535</color>
+</resources>

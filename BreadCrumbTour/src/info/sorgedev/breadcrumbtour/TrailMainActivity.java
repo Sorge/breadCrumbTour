@@ -45,7 +45,9 @@ public class TrailMainActivity extends Activity implements OnClickListener {
 	@Override
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
-		
+		Intent intent = new Intent(TrailMainActivity.this, ImageTargetActivity.class);
+//		intent.setClassName(getPackageName(), "info.sorgedev.breadcrumbtour.ImageTargetActivity");
+		startActivity(intent);
 	}
 
 }

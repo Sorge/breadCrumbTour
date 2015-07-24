@@ -11,11 +11,11 @@ public final class R {
     public static final class attr {
     }
     public static final class color {
-        public static final int dark_grey=0x7f040004;
-        public static final int grey=0x7f040003;
-        public static final int light=0x7f040000;
-        public static final int light_grey=0x7f040002;
-        public static final int yellow=0x7f040001;
+        public static final int dark_grey=0x7f050004;
+        public static final int grey=0x7f050003;
+        public static final int light=0x7f050000;
+        public static final int light_grey=0x7f050002;
+        public static final int yellow=0x7f050001;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -25,8 +25,8 @@ public final class R {
          would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
     
          */
-        public static final int activity_horizontal_margin=0x7f050000;
-        public static final int activity_vertical_margin=0x7f050001;
+        public static final int activity_horizontal_margin=0x7f060000;
+        public static final int activity_vertical_margin=0x7f060001;
     }
     public static final class drawable {
         public static final int filler=0x7f020000;
@@ -36,62 +36,128 @@ public final class R {
         public static final int rating_rectangle=0x7f020004;
     }
     public static final class id {
-        public static final int action_settings=0x7f090016;
-        public static final int bFindTour=0x7f090003;
-        public static final int bHelp=0x7f090005;
-        public static final int bLogin=0x7f090004;
-        public static final int bPickCrumb=0x7f09000a;
-        public static final int bSearchTour=0x7f090011;
-        public static final int container=0x7f090000;
-        public static final int dAboveSearchTour=0x7f09000c;
-        public static final int iBackground=0x7f090001;
-        public static final int iMainImage=0x7f090002;
-        public static final int ivTrailIcon=0x7f090006;
-        public static final int ivTrailIconSearch=0x7f090012;
-        public static final int rbRating=0x7f090010;
-        public static final int sCity=0x7f09000d;
-        public static final int sbMinimumTime=0x7f09000f;
-        public static final int svSearch=0x7f09000b;
-        public static final int tvHintText=0x7f090009;
-        public static final int tvLabelMinimumTime=0x7f09000e;
-        public static final int tvRatingSearch=0x7f090015;
-        public static final int tvTime=0x7f090008;
-        public static final int tvTimeSearch=0x7f090014;
-        public static final int tvTrailName=0x7f090007;
-        public static final int tvTrailNameSearch=0x7f090013;
+        public static final int action_settings=0x7f0a0018;
+        public static final int bFindTour=0x7f0a0003;
+        public static final int bHelp=0x7f0a0005;
+        public static final int bLogin=0x7f0a0004;
+        public static final int bPickCrumb=0x7f0a000a;
+        public static final int bSearchTour=0x7f0a0013;
+        public static final int camera_overlay_layout=0x7f0a000b;
+        public static final int container=0x7f0a0000;
+        public static final int dAboveSearchTour=0x7f0a000e;
+        public static final int iBackground=0x7f0a0001;
+        public static final int iMainImage=0x7f0a0002;
+        public static final int ivTrailIcon=0x7f0a0006;
+        public static final int ivTrailIconSearch=0x7f0a0014;
+        public static final int loading_indicator=0x7f0a000c;
+        public static final int rbRating=0x7f0a0012;
+        public static final int sCity=0x7f0a000f;
+        public static final int sbMinimumTime=0x7f0a0011;
+        public static final int svSearch=0x7f0a000d;
+        public static final int tvHintText=0x7f0a0009;
+        public static final int tvLabelMinimumTime=0x7f0a0010;
+        public static final int tvRatingSearch=0x7f0a0017;
+        public static final int tvTime=0x7f0a0008;
+        public static final int tvTimeSearch=0x7f0a0016;
+        public static final int tvTrailName=0x7f0a0007;
+        public static final int tvTrailNameSearch=0x7f0a0015;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int activity_search=0x7f030001;
         public static final int activity_trail=0x7f030002;
-        public static final int fragment_search=0x7f030003;
-        public static final int fragment_search_results=0x7f030004;
+        public static final int camera_overlay=0x7f030003;
+        public static final int fragment_search=0x7f030004;
+        public static final int fragment_search_results=0x7f030005;
     }
     public static final class menu {
-        public static final int main=0x7f080000;
+        public static final int main=0x7f090000;
+    }
+    public static final class raw {
+        public static final int bumpmap_material_fragment=0x7f040000;
+        public static final int bumpmap_phong_material=0x7f040001;
+        public static final int color_picker_material_fragment=0x7f040002;
+        public static final int color_picker_material_vertex=0x7f040003;
+        public static final int cube_map_material_fragment=0x7f040004;
+        public static final int cube_map_material_vertex=0x7f040005;
+        public static final int diffuse_material_fragment=0x7f040006;
+        public static final int diffuse_material_vertex=0x7f040007;
+        public static final int gouraud_material_fragment=0x7f040008;
+        public static final int gouraud_material_vertex=0x7f040009;
+        public static final int masked_material_fragment=0x7f04000a;
+        public static final int masked_material_vertex=0x7f04000b;
+        public static final int particle_material_fragment=0x7f04000c;
+        public static final int particle_material_vertex=0x7f04000d;
+        public static final int phong_material_fragment=0x7f04000e;
+        public static final int phong_material_vertex=0x7f04000f;
+        public static final int simple_alpha_material_fragment=0x7f040010;
+        public static final int simple_material_fragment=0x7f040011;
+        public static final int simple_material_vertex=0x7f040012;
+        public static final int skybox_material_fragment=0x7f040013;
+        public static final int skybox_material_vertex=0x7f040014;
+        public static final int specular_mask_material_fragment=0x7f040015;
+        public static final int sphere_material_fragment=0x7f040016;
+        public static final int sphere_material_vertex=0x7f040017;
+        public static final int toon_material_fragment=0x7f040018;
+        public static final int video_material_fragment=0x7f040019;
+        public static final int video_material_vertex=0x7f04001a;
     }
     public static final class string {
-        public static final int action_settings=0x7f060001;
-        public static final int app_name=0x7f060000;
+        public static final int INIT_ERROR=0x7f070020;
+        public static final int INIT_ERROR_DEVICE_NOT_SUPPORTED=0x7f070021;
+        public static final int INIT_ERROR_NO_CAMERA_ACCESS=0x7f070022;
+        public static final int INIT_LICENSE_ERROR_CANCELED_KEY=0x7f070028;
+        public static final int INIT_LICENSE_ERROR_INVALID_KEY=0x7f070025;
+        public static final int INIT_LICENSE_ERROR_MISMATCH_KEY=0x7f070023;
+        public static final int INIT_LICENSE_ERROR_MISSING_KEY=0x7f070024;
+        public static final int INIT_LICENSE_ERROR_NO_NETWORK_PERMANENT=0x7f070027;
+        public static final int INIT_LICENSE_ERROR_NO_NETWORK_TRANSIENT=0x7f070026;
+        public static final int INIT_LICENSE_ERROR_PRODUCT_TYPE_MISMATCH=0x7f070029;
+        public static final int INIT_LICENSE_ERROR_UNKNOWN_ERROR=0x7f07002a;
+        public static final int INIT_OBJECT_DATASET_NOT_FOUND=0x7f07002c;
+        public static final int INIT_OBJECT_DATASET_NOT_FOUND_TITLE=0x7f07002b;
+        public static final int UPDATE_ERROR_AUTHORIZATION_FAILED_DESC=0x7f070017;
+        public static final int UPDATE_ERROR_AUTHORIZATION_FAILED_TITLE=0x7f07000e;
+        public static final int UPDATE_ERROR_BAD_FRAME_QUALITY_DESC=0x7f07001e;
+        public static final int UPDATE_ERROR_BAD_FRAME_QUALITY_TITLE=0x7f070015;
+        public static final int UPDATE_ERROR_NO_NETWORK_CONNECTION_DESC=0x7f070019;
+        public static final int UPDATE_ERROR_NO_NETWORK_CONNECTION_TITLE=0x7f070010;
+        public static final int UPDATE_ERROR_PROJECT_SUSPENDED_DESC=0x7f070018;
+        public static final int UPDATE_ERROR_PROJECT_SUSPENDED_TITLE=0x7f07000f;
+        public static final int UPDATE_ERROR_REQUEST_TIMEOUT_DESC=0x7f07001d;
+        public static final int UPDATE_ERROR_REQUEST_TIMEOUT_TITLE=0x7f070014;
+        public static final int UPDATE_ERROR_SERVICE_NOT_AVAILABLE_DESC=0x7f07001a;
+        public static final int UPDATE_ERROR_SERVICE_NOT_AVAILABLE_TITLE=0x7f070011;
+        public static final int UPDATE_ERROR_TIMESTAMP_OUT_OF_RANGE_DESC=0x7f07001c;
+        public static final int UPDATE_ERROR_TIMESTAMP_OUT_OF_RANGE_TITLE=0x7f070013;
+        public static final int UPDATE_ERROR_UNKNOWN_DESC=0x7f07001f;
+        public static final int UPDATE_ERROR_UNKNOWN_TITLE=0x7f070016;
+        public static final int UPDATE_ERROR_UPDATE_SDK_DESC=0x7f07001b;
+        public static final int UPDATE_ERROR_UPDATE_SDK_TITLE=0x7f070012;
+        public static final int action_settings=0x7f070001;
+        public static final int app_name=0x7f070000;
         /**  MAIN FRAGMENT 
          */
-        public static final int bFindTour=0x7f060002;
-        public static final int bHelp=0x7f060004;
-        public static final int bLogin=0x7f060003;
-        public static final int bPickCrumb=0x7f06000c;
-        public static final int bSearchTour=0x7f060006;
-        public static final int iRating=0x7f06000a;
+        public static final int bFindTour=0x7f070002;
+        public static final int bHelp=0x7f070004;
+        public static final int bLogin=0x7f070003;
+        public static final int bPickCrumb=0x7f07000c;
+        public static final int bSearchTour=0x7f070006;
+        /**  VUFORIA STRINGS 
+         */
+        public static final int button_OK=0x7f07000d;
+        public static final int iRating=0x7f07000a;
         /**  SEARCH FRAGMENT 
          */
-        public static final int lSearchActivity=0x7f060005;
+        public static final int lSearchActivity=0x7f070005;
         /**  CRUMB VIEW 
          */
-        public static final int tvHintText=0x7f06000b;
-        public static final int tvLabelMinimumTime=0x7f060007;
-        public static final int tvTime=0x7f060009;
+        public static final int tvHintText=0x7f07000b;
+        public static final int tvLabelMinimumTime=0x7f070007;
+        public static final int tvTime=0x7f070009;
         /**  RESULTS FRAGMENT 
          */
-        public static final int tvTrailName=0x7f060008;
+        public static final int tvTrailName=0x7f070008;
     }
     public static final class style {
         /**  API 21 theme customizations can go here. 
@@ -116,13 +182,13 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070000;
+        public static final int AppBaseTheme=0x7f080000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f070001;
+        public static final int AppTheme=0x7f080001;
         /**  Long line before Search button 
          */
-        public static final int Divider=0x7f070002;
+        public static final int Divider=0x7f080002;
     }
 }
